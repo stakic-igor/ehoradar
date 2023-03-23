@@ -1,0 +1,13 @@
+.follow-us {
+    background-color: red;
+}
+
+.follow-us-boxes {
+    display: flex;
+    &__links {
+        box-sizing: border-box;
+        border: 1px solid white;
+        height: 75px;
+        width: 75px;
+    }
+}
