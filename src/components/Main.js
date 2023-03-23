@@ -3,7 +3,7 @@ const Main = () => {
         <main>
             main section
         </main>
-    )
-}
+    );
+};
 
 export default Main;

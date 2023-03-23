@@ -5,7 +5,7 @@ const Copyright = () => {
         <section className="copyright text-center">
             &copy; {date.getFullYear()} | Sva prava zadržana. 
         </section>
-    )
-}
+    );
+};
 
 export default Copyright;

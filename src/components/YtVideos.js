@@ -3,7 +3,7 @@ const YtVideos = () => {
         <section className="yt-videos">
             youtube
         </section>
-     )
+    );
 };
 
 export default YtVideos;

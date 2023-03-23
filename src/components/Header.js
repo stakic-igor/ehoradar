@@ -3,7 +3,7 @@ const Header = () => {
         <header className="header">
             Eho Radar
         </header>
-    )
-}
+    );
+};
 
 export default Header;

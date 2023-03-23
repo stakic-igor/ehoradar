@@ -3,7 +3,7 @@ const UpcomingEvents = () => {
         <section className="events">
             UpcomingEvents
         </section>
-    )
-}
+    );
+};
 
 export default UpcomingEvents;

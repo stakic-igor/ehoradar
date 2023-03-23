@@ -6,7 +6,7 @@ const Footer = () => {
             <section>Footer</section>
             <Copyright />
         </footer>
-    )
-} 
+    );
+};
 
 export default Footer;
