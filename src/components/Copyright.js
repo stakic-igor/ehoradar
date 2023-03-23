@@ -2,7 +2,7 @@ const Copyright = () => {
     const date = new Date();
     
     return (
-        <section>
+        <section className="copyright text-center">
             &copy; {date.getFullYear()} | Sva prava zadržana. 
         </section>
     )
