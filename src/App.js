@@ -1,9 +1,9 @@
-import Copyright from './components/Copyright';
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Copyright />
+      <Footer />
     </div>
   );
 }
