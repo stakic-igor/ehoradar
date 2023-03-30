@@ -1,5 +1,4 @@
 const FollowUs = () => {
-
     return (
         <section className="follow-us">
             <span>Pratite nas na:</span>
@@ -7,14 +6,16 @@ const FollowUs = () => {
                 <a 
                     href="https://www.facebook.com/ehoradar" 
                     className="follow-us-boxes__links facebook"
-                    target="_blank"    
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     facebook
                 </a>
                 <a 
                     href="https://www.instagram.com/ehoradar" 
                     className="follow-us-boxes__links instagram"
-                    target="_blank"    
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     instagram
                 </a>
@@ -22,6 +23,7 @@ const FollowUs = () => {
                     href="https://www.youtube.com/@ehoradar6957" 
                     className="follow-us-boxes__links youtube"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     youtube
                 </a>
