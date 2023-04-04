@@ -1,7 +1,12 @@
+import Event from './Event';
+
 const UpcomingEvents = () => {
     return (
         <section className="events">
-            UpcomingEvents
+            Upcoming Events
+            <Event />
+            <Event />
+            <Event />
         </section>
     );
 };
