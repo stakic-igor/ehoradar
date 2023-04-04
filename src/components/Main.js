@@ -1,7 +1,10 @@
+import UpcomingEvents from './UpcomingEvents';
+
 const Main = () => {
     return (
-        <main>
-            main section
+        <main className='main-block'>
+            <h1>Eho Radar webs</h1>
+            <UpcomingEvents />
         </main>
     );
 };
