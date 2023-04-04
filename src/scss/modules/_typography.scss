@@ -9,3 +9,11 @@
 .text-right {
     text-align: right;
 }
+
+@each $name, $value in $headings {
+    #{$name} {
+        font-size: nth($value, 1);
+        line-height: nth($value, 2);
+        font-weight: 700;
+    }
+}
