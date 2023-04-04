@@ -5,7 +5,8 @@
 @import 'modules/utils',
         'modules/typography';
 
-@import 'layout/header',
+@import 'layout/basic-setup',
+        'layout/header',
         'layout/hero-section',
         'layout/main-block',
         'layout/events',
