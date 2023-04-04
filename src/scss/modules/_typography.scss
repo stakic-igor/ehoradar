@@ -15,5 +15,13 @@
         font-size: nth($value, 1);
         line-height: nth($value, 2);
         font-weight: 700;
+        user-select: none;
+    }
+}
+
+@each $name, $value in $typography {
+    .#{$name} {
+        font-size: nth($value, 1);
+        line-height: nth($value, 2);
     }
 }
