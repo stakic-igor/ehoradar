@@ -1,7 +1,10 @@
+import Nav from './Nav';
+
 const Header = () => {
     return (
         <header className="header">
-            Eho Radar
+            <div className="logo">EhoRadar</div>
+            <Nav />
         </header>
     );
 };
