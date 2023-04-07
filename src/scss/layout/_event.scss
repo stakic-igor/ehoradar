@@ -1,15 +1,37 @@
 .event {
+    padding-bottom: 8px;
     width: 100%;
-    &__img {
-        height: 135px;
-        width: auto;
+    border-bottom: 1px solid green;
+    &:not(:last-child) {
+        margin-bottom: 8px;
     }
+    &-data {
+        padding: 0 8px;
+    }
+    &__img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.event-date-time {
+    display: flex;
+    align-items: center;
 }
 
 .event-date {
     @include eventDateTime;
+    margin-right: 8px;
+    width: 48px;
 }
 
 .event-time {
     @include eventDateTime;
+    flex: 1 0 auto;
+}
+
+.event-tickets {
+    color: $darkGreen;
+    text-decoration: none;
+    user-select: none;
 }

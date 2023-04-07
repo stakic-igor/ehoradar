@@ -3,16 +3,16 @@ const Nav = () => {
         <nav className="nav">
             <ul>
                 <li>
-                    Početna
+                    Item 1
                 </li>
                 <li>
-                    Početna
+                    Item 2
                 </li>
                 <li>
-                    Početna
+                    Item 3
                 </li>
                 <li>
-                    Početna
+                    Item 4
                 </li>
             </ul>
         </nav>
