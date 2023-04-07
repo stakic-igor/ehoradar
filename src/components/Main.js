@@ -1,12 +1,10 @@
-import BookUs from './BookUs';
-import UpcomingEvents from './UpcomingEvents';
+import Sidebar from './Sidebar';
 
 const Main = () => {
     return (
         <main className='main-block'>
             <h1>Eho Radar webs</h1>
-            <UpcomingEvents />
-            <BookUs />
+            <Sidebar />
         </main>
     );
 };
