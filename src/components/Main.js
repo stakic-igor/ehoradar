@@ -1,3 +1,4 @@
+import BookUs from './BookUs';
 import UpcomingEvents from './UpcomingEvents';
 
 const Main = () => {
@@ -5,6 +6,7 @@ const Main = () => {
         <main className='main-block'>
             <h1>Eho Radar webs</h1>
             <UpcomingEvents />
+            <BookUs />
         </main>
     );
 };
