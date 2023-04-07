@@ -2,12 +2,12 @@
 // @arg1: font-size
 // @arg2: line-height
 $headings: (
-	h1: (48px, 1.2),
-	h2: (30px, 1.2),
-	h3: (24px, 1.2),
-	h4: (18px, 1.2),
-	h5: (16px, 1.2),
-	h6: (14px, 1.2)
+	h1: (48px, 1.2, 1.5rem, 1rem),
+	h2: (30px, 1.2, 1.2rem, 1rem),
+	h3: (24px, 1.2, .8rem, .5rem),
+	h4: (18px, 1.2, .6rem, .5rem),
+	h5: (16px, 1.2, .5rem, .5rem),
+	h6: (14px, 1.2, .4rem, .5rem)
 );
 
 // Basic typography

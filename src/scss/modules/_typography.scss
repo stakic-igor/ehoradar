@@ -14,6 +14,8 @@
     #{$name} {
         font-size: nth($value, 1);
         line-height: nth($value, 2);
+        margin-top: nth($value, 3);
+        margin-bottom: nth($value, 4);
         font-weight: 700;
         user-select: none;
     }
