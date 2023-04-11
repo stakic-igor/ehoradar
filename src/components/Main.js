@@ -5,7 +5,6 @@ const Main = () => {
         <main className='container main-block'>
             <h1>Eho Radar webs</h1>
             <Sidebar />
-            <button className='button-primary'>Test Button</button>
         </main>
     );
 };

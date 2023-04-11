@@ -1,9 +1,11 @@
 .book-us {
+    padding: 0 8px; 
     &__title {
         color: $white;
     }
     &__text {
         color: $white;
         user-select: none;
+        margin-bottom: 1rem;
     }
 }

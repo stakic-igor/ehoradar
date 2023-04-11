@@ -6,21 +6,19 @@ const Event = (props) => {
                 className='event__img'
                 alt='event__pic'
             />
-            <div className='event-data'>
-                <p>Que Passa - svirka</p>
-                <div className='event-date-time'>
-                    <div className='event-date text-center secondary-text'>
-                        <p>Mart<br />30</p>
-                    </div>
-                    <div className='event-time'>
-                        <p>Srijeda<br />21:00 - 24:00</p>
-                    </div>
+            <p className="event__venue">{props.venue}</p>
+            <div className='event-date-time'>
+                <div className='event-date text-center secondary-text'>
+                    <p>{props.month}<br />{props.day}</p>
                 </div>
-                <p>Ulaz - {props.ticketPrice}</p>
-                {
-                    props.tickets && <a href='www.google.com' className='event-tickets'>ulaznice</a>
-                }
+                <div className='event-time'>
+                    <p>{props.weekDay}<br />Početak: {props.start}</p>
+                </div>
             </div>
+            <p>Ulaz - {props.ticketPrice}{props.tickets && props.currency}</p>
+            {
+                props.tickets && <a href='www.google.com' className='event-tickets'>ulaznice</a>
+            }
         </div>
     );
 };
