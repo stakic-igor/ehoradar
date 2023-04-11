@@ -1,8 +1,8 @@
-import Copyright from "./Copyright";
+import Copyright from './Copyright';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className='footer'>
             <section>Footer</section>
             <Copyright />
         </footer>

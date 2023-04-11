@@ -3,7 +3,7 @@ import BookUs from './BookUs';
 
 const Sidebar = () => {
     return (
-        <aside className="sidebar">
+        <aside className='sidebar'>
             <UpcomingEvents />
             <BookUs />
         </aside>

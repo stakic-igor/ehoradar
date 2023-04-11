@@ -1,6 +1,6 @@
 const YtVideos = () => {
      return (
-        <section className="yt-videos">
+        <section className='yt-videos'>
             youtube
         </section>
     );

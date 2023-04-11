@@ -1,8 +1,8 @@
-import StreamingServices from "./StreamingServices";
+import StreamingServices from './StreamingServices';
 
 const AlbumDownload = () => {
     return (
-        <section className="album-download">
+        <section className='album-download'>
             <h2>Album Download</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Quisque lobortis ac sapien eu ultricies. 
@@ -19,10 +19,10 @@ const AlbumDownload = () => {
                     <li>Sve je spremno za kraj</li>
                     <li>Još jedan dan</li>  
                 </ul>
-                <img alt="Bez granica album cover"/>
-                <input type="radio" name="download-as"/>.mp3
-                <input type="radio" name="download-as"/>.waw
-                <button class="btn" disabled>Download</button>
+                <img alt='Bez granica album cover'/>
+                <input type='radio' name='download-as'/>.mp3
+                <input type='radio' name='download-as'/>.waw
+                <button class='btn' disabled>Download</button>
             </div>
             <StreamingServices />
         </section>
