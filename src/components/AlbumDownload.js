@@ -1,3 +1,5 @@
+import StreamingServices from "./StreamingServices";
+
 const AlbumDownload = () => {
     return (
         <section className="album-download">
@@ -22,6 +24,7 @@ const AlbumDownload = () => {
                 <input type="radio" name="download-as"/>.waw
                 <button class="btn" disabled>Download</button>
             </div>
+            <StreamingServices />
         </section>
     );
 };
