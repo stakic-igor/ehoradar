@@ -2,9 +2,6 @@
         'settings',
         'mixins';
 
-@import 'modules/utils',
-        'modules/typography';
-
 @import 'layout/basic-setup',
         'layout/header',
         'layout/navigation',
@@ -17,3 +14,7 @@
         'layout/yt-videos',
         'layout/follow-us',
         'layout/footer-and-copyright';
+
+@import 'modules/utils',
+        'modules/typography',
+        'modules/button';

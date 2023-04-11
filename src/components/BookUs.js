@@ -6,7 +6,7 @@ const BookUs = () => {
                Quisque lobortis ac sapien eu ultricies. 
                Curabitur quis erat a sapien lacinia porttitor sit amet nec urna.
             </p>
-            <button className='book-us-button'>
+            <button className='btn'>
                 book us!
             </button>
         </div>

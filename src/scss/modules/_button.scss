@@ -1,0 +1,17 @@
+// Shared btn styles
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn {
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+}
