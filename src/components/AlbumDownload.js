@@ -2,7 +2,7 @@ import StreamingServices from './StreamingServices';
 
 const AlbumDownload = () => {
     return (
-        <section className='album-download'>
+        <section className='album-download container'>
             <h2>Album Download</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Quisque lobortis ac sapien eu ultricies. 
