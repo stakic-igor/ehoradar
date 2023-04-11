@@ -1,15 +1,19 @@
 // Color scheme
 
-$darkGray: #333;
-$red: #ff0000;
-$electricBlue: #00bfff;
-$white: #ffffff;
-$yellow: #ffd700;
-$orange: #ff8c00;
-$darkGreen: #006400;
+$darkGray: #060606;		// Darker Gray
+$lightGray: #bfbfbf; 		// Light Gray
+$red: #ff5a5f;				// Coral
+$electricBlue: #00b2b2;	// Teal
+$white: #ffffff;			// White
+$yellow: #ffd700;			// Yellow
+$orange: #f5a623;			// Orange
+$darkGreen: #006400;		// Dark Green
 
 $mainBackground: $darkGray;
-$mainText: $darkGray;
-$secondaryText: $white
+$mainText: $white;
+$secondaryText: $lightGray;
+
+// Text colors
+
 
 // Secondary color Scheme
