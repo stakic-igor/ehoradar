@@ -1,0 +1,12 @@
+.container {
+    @each $name, $value in $breakpoints {
+        @include breakpoint($name) {
+            @include containerwidths ($name);
+        }
+    }
+    margin: 0 auto;
+    outline: 1px dashed orange;
+    &--full {
+        width: 100%;
+    }
+}

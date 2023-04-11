@@ -13,8 +13,17 @@
     @if not map-has-key($breakpoints, $name) {
       @warn "Warning: `#{$name}` is not a valid breakpoint name.";
     } @else {
-      @media screen and (max-width: map-get($breakpoints, $name)) {
+      @media screen and (min-width: map-get($breakpoints, $name)) {
         @content;
       }
     }
   }
+
+  @mixin containerwidths($name) {
+    @if not map-has-key($breakpoints, $name) {
+        @warn "Warning: `#{$name}` is not a valid breakpoint name.";
+    } @else {
+        width: map-get($breakpoints, $name);
+        @content;
+    }
+}
