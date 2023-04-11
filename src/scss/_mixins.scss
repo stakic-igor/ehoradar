@@ -7,4 +7,14 @@
 
 // Button setup mixin
 
-
+// Breakpoint mixin to generate media queries
+// @param '$name': use value from breakpoint map
+@mixin breakpoint($name) {
+    @if not map-has-key($breakpoints, $name) {
+      @warn "Warning: `#{$name}` is not a valid breakpoint name.";
+    } @else {
+      @media screen and (max-width: map-get($breakpoints, $name)) {
+        @content;
+      }
+    }
+  }

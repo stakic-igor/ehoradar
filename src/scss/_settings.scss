@@ -29,3 +29,10 @@ $defaultBorderRadius: 4px;
 $layer: (
 
 );
+
+// Breakpooints to use in 
+// media-query mixins
+$breakpoints: (
+	small: 320px,
+	medium: 768px
+);
