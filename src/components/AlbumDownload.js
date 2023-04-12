@@ -57,7 +57,10 @@ const AlbumDownload = () => {
 				<ul>
 					{
 						songList.map((song) => (
-							<li>{song.id}. {song.name} - {song.duration}</li>
+							<li className='secondary-text'>
+								{song.id}. {song.name} - 
+								<span className=''>{song.duration}</span>
+							</li>
 						))
 					}
 				</ul>
