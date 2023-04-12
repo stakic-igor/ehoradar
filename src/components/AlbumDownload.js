@@ -1,32 +1,74 @@
 import StreamingServices from './StreamingServices';
 
+const songList = [
+	{
+		id: 1,
+		name: 'Bez Granica',
+		duration: '4:31'
+	},
+	{
+        id: 2,
+        name: 'Svetlost',
+        duration: '3:36'
+    },
+	{
+        id: 3,
+        name: 'Tvoj',
+        duration: '3:04'
+    },
+	{
+        id: 4,
+        name: 'Još jedan dan',
+        duration: '3:46'
+    },
+	{
+        id: 5,
+        name: 'Sve je spremno za kraj',
+        duration: '5:01'
+    },    
+	{
+        id: 6,
+        name: 'Oprosti za bol',
+        duration: '5:31'
+    },
+	{
+        id: 7,
+        name: 'Tražim te',
+        duration: '3:38'
+    },
+	{
+        id: 8,
+        name: 'Prah',
+        duration: '4:36'
+    },
+	{
+        id: 9,
+        name: 'Noć bez sna',
+        duration: '4:00'
+    }
+]
+
 const AlbumDownload = () => {
-    return (
-        <section className='album-download container'>
-            <h2>Album Download</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Quisque lobortis ac sapien eu ultricies. 
-               Curabitur quis erat a sapien lacinia porttitor sit amet nec urna.
-            </p>
-            <div>
-                <ul>
-                    <li>Bez Granica</li>
-                    <li>Prah</li>
-                    <li>Svetlost</li>
-                    <li>Noć bez sna</li>
-                    <li>Oprosti za bol</li>
-                    <li>Tvoj</li>
-                    <li>Sve je spremno za kraj</li>
-                    <li>Još jedan dan</li>  
-                </ul>
-                <img alt='Bez granica album cover'/>
-                <input type='radio' name='download-as'/>.mp3
-                <input type='radio' name='download-as'/>.waw
-                <button class='btn' disabled>Download</button>
-            </div>
-            <StreamingServices />
-        </section>
-    );
+	return (
+		<section className='album-download container'>
+			<h2>Album Download</h2>
+			<p>Naš novi album je upravo objavljen i dostupan je za preuzimanje!</p>
+			<div>
+				<ul>
+					{
+						songList.map((song) => (
+							<li>{song.id}. {song.name} - {song.duration}</li>
+						))
+					}
+				</ul>
+				<img alt='Bez granica album cover'/>
+				<input type='radio' name='download-as'/>.mp3
+				<input type='radio' name='download-as'/>.waw
+				<button class='btn' disabled>Download</button>
+			</div>
+			<StreamingServices />
+		</section>
+	);
 };
 
 export default AlbumDownload;
