@@ -57,7 +57,7 @@ const AlbumDownload = () => {
 				<ul>
 					{
 						songList.map((song) => (
-							<li className='secondary-text'>
+							<li className='secondary-text' key={song.id}>
 								{song.id}. {song.name} - 
 								<span className=''>{song.duration}</span>
 							</li>
@@ -67,7 +67,7 @@ const AlbumDownload = () => {
 				<img alt='Bez granica album cover'/>
 				<input type='radio' name='download-as'/>.mp3
 				<input type='radio' name='download-as'/>.waw
-				<button class='btn' disabled>Download</button>
+				<button className='btn' disabled>Download</button>
 			</div>
 			<StreamingServices />
 		</section>
