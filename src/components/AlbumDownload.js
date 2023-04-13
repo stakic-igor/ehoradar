@@ -52,23 +52,27 @@ const AlbumDownload = () => {
 	return (
 		<section className='album-download container'>
 			<h2>Album Download</h2>
-			<p>Naš novi album je upravo objavljen i dostupan je za preuzimanje!</p>
-			<div>
-				<ul>
+			<h4>Naš prvi album, Bez granica, je upravo objavljen i dostupan je za preuzimanje!</h4>
+			<div class="album-wrap">
+				<ul className='song-list'>
 					{
 						songList.map((song) => (
-							<li className='secondary-text' key={song.id}>
+							<li className='song-list__item secondary-text' key={song.id}>
 								{song.id}. {song.name} - 
-								<span className=''>{song.duration}</span>
+								<span className='song-list__item__duration'>&nbsp;{song.duration}</span>
 							</li>
 						))
 					}
 				</ul>
-				<img alt='Bez granica album cover'/>
-				<input type='radio' name='download-as'/>.mp3
-				<input type='radio' name='download-as'/>.waw
-				<button className='btn' disabled>Download</button>
+				<img 
+					src='/images/hero-1.jpg'
+					className='album-cover'
+					alt='Bez granica album cover'
+				/>
 			</div>
+			<input type='radio' name='download-as'/>.mp3
+			<input type='radio' name='download-as'/>.waw
+			<button className='btn' disabled>Download</button>
 			<StreamingServices />
 		</section>
 	);

@@ -1,3 +1,22 @@
 .album-download {
     
 }
+
+.song-list {
+    user-select: none;
+    &__item {
+        &__duration {
+            color: $accent-color-2;
+        }
+    }
+}
+
+.album-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.album-cover {
+    height: 200px;
+    width: 200px;
+}
