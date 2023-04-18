@@ -1,3 +1,13 @@
 .nav {
     
 }
+
+.nav-list {
+    &__item {
+        display: inline-block;
+    }
+    &__link {
+        color: $menuItemText;
+        text-decoration: none;
+    }
+}

@@ -1,18 +1,26 @@
 const Nav = () => {
     return (
         <nav className='nav'>
-            <ul>
-                <li>
-                    Item 1
+            <ul className="nav-list">
+                <li className="nav-list__item">
+                    <a href="" className="nav-list__link">
+                        Item 1
+                    </a>
                 </li>
-                <li>
-                    Item 2
+                <li className="nav-list__item">
+                    <a href="" className="nav-list__link">
+                        Item 2
+                    </a>
                 </li>
-                <li>
-                    Item 3
+                <li className="nav-list__item">
+                    <a href="" className="nav-list__link">
+                        Item 3
+                    </a>
                 </li>
-                <li>
-                    Item 4
+                <li className="nav-list__item">
+                    <a href="" className="nav-list__link">
+                        Item 4
+                    </a>
                 </li>
             </ul>
         </nav>
