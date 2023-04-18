@@ -1,8 +1,8 @@
 const ScrollToTop = () => {
 	return (
-		<div>
+		<a href="#top" className="scroll-to-top">
 			up
-		</div>
+		</a>
 	);
 };
 

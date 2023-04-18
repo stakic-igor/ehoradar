@@ -1,0 +1,13 @@
+.scroll-to-top {
+    border: 2px solid $orange;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    height: 48px;
+    user-select: none;
+    width: 48px;
+    &:hover {
+        background-color: $scrollToTop;
+    }
+}
