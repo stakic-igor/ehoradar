@@ -1,5 +1,11 @@
 .follow-us {
     background-color: red;
+    &__wrap {
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
 }
 
 .follow-us-boxes {
