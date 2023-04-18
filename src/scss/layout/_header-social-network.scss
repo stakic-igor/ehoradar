@@ -10,9 +10,8 @@
 .header-social-networks {
 	line-height: 0;
 	&__link {
-		margin: 0 auto;
+		margin-left: 8px;
 		opacity: 0.8;
-		display: inline-block;
 		transition: all 280ms ease-in;
 		& > img {
 			height: 20px;
