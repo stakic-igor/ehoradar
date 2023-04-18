@@ -1,8 +1,8 @@
 const HeaderSocialNetwork = () => {
 	return (
 		<section className="header-social">
-			<span className="header-social__title">Pratite nas:</span>
-			<div className="header-social-networks secondary-text">
+			<span className="header-social__title secondary-text">Pratite nas:</span>
+			<div className="header-social-networks">
 				<a 
 					href='https://www.facebook.com/ehoradar' 
 					className='header-social-networks__link  facebook'
