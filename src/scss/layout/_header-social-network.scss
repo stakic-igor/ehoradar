@@ -1,0 +1,22 @@
+.header-social {
+	align-items: center;
+	display: inline-flex;
+	&__title {
+		color: $teal;
+	}
+}
+
+.header-social-networks {
+	&__link {
+		margin-left: 8px;
+		opacity: 0.8;
+		transition: all 280ms ease-in;
+		& > img {
+			height: 20px;
+			width: auto;
+		}
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
