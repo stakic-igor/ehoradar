@@ -9,7 +9,10 @@ const FollowUs = () => {
                     target='_blank'
                     rel='noreferrer'
                 >
-                    facebook
+                    <img 
+						src='/images/icons/social-icons/facebook-32.png' 
+						alt="facebook"
+					/>
                 </a>
                 <a 
                     href='https://www.instagram.com/ehoradar' 
@@ -17,7 +20,10 @@ const FollowUs = () => {
                     target='_blank'
                     rel='noreferrer'
                 >
-                    instagram
+                    <img 
+						src='/images/icons/social-icons/instagram-32.png' 
+						alt="instagram"
+					/>
                 </a>
                 <a 
                     href='https://www.youtube.com/@ehoradar6957' 
@@ -25,7 +31,10 @@ const FollowUs = () => {
                     target='_blank'
                     rel='noreferrer'
                 >
-                    youtube
+                    <img 
+						src='/images/icons/social-icons/youtube-32.png' 
+						alt="youtube"
+					/>
                 </a>
             </div>
         </section>
